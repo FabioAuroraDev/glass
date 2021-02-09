@@ -149,6 +149,7 @@ h1 {
 
 .games {
     margin: 2rem;
+    text-align: center;
 }
 
 .card {
@@ -172,12 +173,12 @@ h1 {
 
 .progress {
     background: linear-gradient(to right top, #65dfc9, #6cdbeb);
-    width: 60%;
+    width: 70%;
     height: 17px;
     border-radius: 1rem;
     position: relative;
     overflow: hidden;
-    transform: translateY(140%)
+    transform: translateY(130%) 
 }
 .progress::after {
     content: "";
